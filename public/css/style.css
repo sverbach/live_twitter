@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    background: linear-gradient(330deg, #1C1F2B, #292D3E);
+    background-size: 400% 400%;
+    color: white;
+    -webkit-animation: greyFade 10s ease infinite;
+    -moz-animation: greyFade 10s ease infinite;
+    animation: greyFade 10s ease infinite;
+    font-family: 'Raleway', sans-serif;
+}
+
+article {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #292D3E66;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header form {
+    width: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+form input {
+    margin-left: 15px;
+    padding: 5px 10px 5px 5px;
+    border-radius: 10px;
+    background-color: #292D3E66;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+main img {
+    max-width: 100%;
+    opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+main a:hover img {
+    opacity: 0.5;
+}
+
+
+@-webkit-keyframes greyFade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes greyFade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes greyFade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
